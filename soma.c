@@ -14,9 +14,15 @@ int main(){
 
     printf("O resultado é: %d\n", resultado);
 
+    falar();
+
     return 0;
 }
 
 int soma(int var1, int var2){
     return var1 + var2;
+}
+
+void falar(){
+    printf("Estou falando");
 }
