@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void soma(int var1, int var2);
+int soma(int var1, int var2);
 
 int main(){
-    int var1, var21;
-    printf("Digite o valor de var1: ")
-    scanf("%d", &d);
+    int var1, var2;
+    printf("Digite o valor de var1: ");
+    scanf("%d", &var1);
 
     printf("Digite o valor de var2: ");
     scanf("%d", &var2);
@@ -14,9 +14,9 @@ int main(){
 
     printf("O resultado é: %d\n", resultado);
 
-    return ;
+    return 0;
 }
 
-void soma(int var1, int var2){
+int soma(int var1, int var2){
     return var1 + var2;
 }
